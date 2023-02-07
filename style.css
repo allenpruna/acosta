@@ -1,0 +1,150 @@
+.acosta__banner-top {
+	max-width: 94%;
+	text-align: center;
+	background-color: #E1EEF4;
+	height: 208px;
+}
+
+.acosta__img img {
+	width: 1198px;
+}
+
+h1 {
+	font-size: 70px;
+	font: normal normal 600 70px/116px Crimson Text;
+	margin-bottom: 0;
+}
+
+.acosta__banner-top p {
+	font: normal normal normal 14px/27px Montserrat;
+	letter-spacing: 0.7px;
+	color: #989898;
+	text-transform: uppercase;
+	opacity: 1;
+	margin-top: -2rem;
+}
+
+.acosta__banner-bot {
+	max-width: 94%;
+	height: 600px;
+	text-align: center;
+}
+
+.acosta__bot-section {
+	max-width: 875px;
+}
+
+.acosta__card {
+	max-width: 875px;
+	margin: auto;
+	border: none;
+}
+
+.container {
+	max-width: 95%
+}
+
+.nav-item a {
+	font-size: 14px;
+	font-family: normal normal normal 14px/27px Open Sans;
+	letter-spacing: 1.4px;
+	color: #000000;
+	text-transform: uppercase;
+	margin-right: 2.5rem;
+	margin-left: 2.5rem;
+}
+
+.acosta__text {
+	border: none;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: #E1EEF4;
+	font-size: 14px;
+	text-decoration: underline;
+	text-align: justify;
+	border: 1px solid #FFFFFF;
+	margin-left: 2rem;
+	font-size: 14px;
+	font-family: normal normal 600 14px/27px Montserrat;
+	color: #000000;
+}
+
+.acosta__supbtn {
+	margin-left: 2.5rem;
+	padding: 1.25rem 2.5rem;
+	background-color: #FFFFFF;
+	font-weight: 500;
+	border-color: #000000;
+	font-size: 14px;
+	font-family: normal normal 600 14px/27px Montserrat;
+	letter-spacing: 1.4px;
+	color: #000000;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.navbar-nav button:hover,
+.acosta__card a:hover {
+	background-color: #E1EEF4;
+	border-color: #89CFF0;
+	color: #000000;
+}
+
+.navbar-nav {
+	align-items: center;
+}
+
+.nav-item {
+	position:relative;
+}
+
+.nav-item::after {
+	transition: all 2s;
+}
+
+.nav-item:hover::after {
+	content: '';
+	height: 2px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+h2 {
+	font: normal normal 600 52px/79px Crimson Text;
+}
+
+.acosta__card-body p{
+	font: normal normal 300 15px/25px Montserrat;
+}
+
+.acosta__card a{
+	margin-left:0;
+}
+
+h3 {
+	font: normal normal 600 40px/79px Crimson Text;
+}
+
+.acosta__topbody {
+	max-width: 1198px;
+	align-items: center;
+}
+
+.acosta__topbody p {
+	font: normal normal 300 15px/25px Montserrat;
+}
+
+.acosta__topbody img {
+	height: 480px;
+}
+
+.acosta__topbody-items {
+	background-color: #E1EEF4;
+	padding: 5rem;
+	height: 480px;
+}

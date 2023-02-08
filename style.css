@@ -76,7 +76,7 @@ h1 {
 	padding: 1.25rem 2.5rem;
 	background-color: #FFFFFF;
 	font-weight: 500;
-	border-color: #000000;
+	border: 2px solid #000000;
 	font-size: 14px;
 	font-family: normal normal 600 14px/27px Montserrat;
 	letter-spacing: 1.4px;

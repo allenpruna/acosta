@@ -11,17 +11,15 @@
 
 h1 {
 	font-size: 70px;
-	font: normal normal 600 70px/116px Crimson Text;
-	margin-bottom: 0;
+	font: normal normal 600 70px Crimson Text;
 }
 
 .acosta__banner-top p {
-	font: normal normal normal 14px/27px Montserrat;
+	font: normal normal normal 14px Montserrat;
 	letter-spacing: 0.7px;
 	color: #989898;
 	text-transform: uppercase;
 	opacity: 1;
-	margin-top: -2rem;
 }
 
 .acosta__banner-bot {
@@ -147,4 +145,31 @@ h3 {
 	background-color: #E1EEF4;
 	padding: 5rem;
 	height: 480px;
+}
+
+
+
+
+
+@media screen and (max-width: 1400px)
+{
+	.acosta__topbody{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 745px)
+{
+	h1 {
+		font-size: 40px;
+		margin: auto;
+	}
+	p {
+		font-size: 10px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
 }

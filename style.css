@@ -156,7 +156,9 @@ h3 {
 }
 
 
-
+.acosta__bot-section p {
+	font: normal normal 300 15px/25px Montserrat;
+}
 
 
 
@@ -166,11 +168,10 @@ h3 {
 {
 	.acosta__topbody{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
-
 	.acosta__topbody-img {
-		margin-top: 1rem;
+		margin-bottom: 1rem;
 	}
 	.acosta__supbtn,
 	.acosta__text{
@@ -185,7 +186,8 @@ h3 {
 		font-size: 40px;
 		margin: auto;
 	}
-	p {
+	p,
+	.acosta__bot-section p {
 		font-size: 10px;
 	}
 

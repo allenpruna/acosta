@@ -2,7 +2,6 @@
 	max-width: 94%;
 	text-align: center;
 	background-color: #E1EEF4;
-	height: 208px;
 }
 
 .acosta__img img {
@@ -24,9 +23,19 @@ h1 {
 
 .acosta__banner-bot {
 	max-width: 94%;
-	height: 600px;
 	text-align: center;
+	background-color: #E1EEF4;
+	min-height: 600px;
 }
+.acosta__banner-bot p {
+	font-family: Century Gothic;
+	background-color: #E1EEF4;
+	font-size: 40px;
+	color: #FF0000;
+	position: relative;
+	top: 50%;
+}
+
 
 .acosta__bot-section {
 	max-width: 875px;
@@ -144,8 +153,10 @@ h3 {
 .acosta__topbody-items {
 	background-color: #E1EEF4;
 	padding: 5rem;
-	height: 480px;
 }
+
+
+
 
 
 
@@ -157,6 +168,15 @@ h3 {
 		display: flex;
 		flex-direction: column;
 	}
+
+	.acosta__topbody-img {
+		margin-top: 1rem;
+	}
+	.acosta__supbtn,
+	.acosta__text{
+		margin:auto;
+	}
+
 }
 
 @media screen and (max-width: 745px)
@@ -171,5 +191,9 @@ h3 {
 
 	h2 {
 		font-size: 30px;
+	}
+	.acosta__banner-bot p {
+		font-size: 20px;
+		margin: auto;
 	}
 }

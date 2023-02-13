@@ -32,8 +32,6 @@ h1 {
 	background-color: #E1EEF4;
 	font-size: 40px;
 	color: #FF0000;
-	position: relative;
-	top: 50%;
 }
 
 
@@ -48,7 +46,7 @@ h1 {
 }
 
 .container {
-	max-width: 95%
+	max-width: 94%
 }
 
 .nav-item a {
@@ -142,11 +140,11 @@ h3 {
 	align-items: center;
 }
 
-.acosta__topbody p {
+.acosta__topbody-items p {
 	font: normal normal 300 15px/25px Montserrat;
 }
 
-.acosta__topbody img {
+.acosta__topbody-img img {
 	height: 480px;
 }
 
@@ -160,13 +158,93 @@ h3 {
 	font: normal normal 300 15px/25px Montserrat;
 }
 
+.acosta__footer-items {
+	background-color: #F4F2F1;
+}
 
+.acosta__opt1 li,
+.acosta__opt2 li,
+.acosta__opt3 li {
+	list-style: none;
+}
 
+.acosta__opt1 {
+	flex-direction: column;
+}
+.acosta__opt1 img {
+	margin-left: -10rem;
+}
+
+.acosta__opt1-contacts {
+	margin-left: 10rem;
+}
+
+.contact-title {
+	font-size: 14px;
+	letter-spacing: 1.4px;
+	line-height: 14px;
+	font-weight: 600;
+}
+
+.contact-value {
+	font-size: 14px;
+	letter-spacing: 1.4px;
+	line-height: 14px;
+}
+
+.acosta__sc-icons a,
+.acosta__payment-icons a{
+	margin-left: 1rem;
+}
+
+.acosta__sc-icons i {
+	color: #000000;
+}
+
+.acosta__payment-icons {
+	font-size: 32px;
+}
+
+.acosta__payment-icons {
+	margin-left: -6.5rem;
+}
+.acosta__sc-icons {
+
+	margin-top: 1rem;
+	margin-bottom: 0;
+	margin-left: -5.5rem;
+}
+
+.acosta__opt2,
+.acosta__opt3 {
+	padding: 4rem;
+}
+
+.acosta__opt2 p,
+.acosta__opt3 p{
+	letter-spacing: 1.4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.acosta__opt2 a,
+.acosta__opt3 a{
+	text-decoration: none;
+	color: #000000;
+	opacity: 0.75;
+	margin-left: -1.75rem;
+	letter-spacing: 1.4px;
+	font-size: 14px;
+}
+
+.acosta__opt2 li,
+.acosta__opt3 li{
+	padding-top: 1rem;
+}
 
 
 @media screen and (max-width: 1400px)
 {
-	.acosta__topbody{
+	.acosta__topbody-row{
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -176,6 +254,12 @@ h3 {
 	.acosta__supbtn,
 	.acosta__text{
 		margin:auto;
+	}
+	.acosta__opt2,
+	.acosta__opt3 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
@@ -197,5 +281,89 @@ h3 {
 	.acosta__banner-bot p {
 		font-size: 20px;
 		margin: auto;
+	}
+
+	.acosta__opt1 {
+		text-align: center;
+		padding: 3rem;
+	}
+
+	.acosta__opt1 p {
+		align-items: left;
+		margin-left: -11rem;
+	}
+	.acosta__opt1 img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.acosta__opt2,
+	.acosta__opt3 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.acosta__opt1 {
+		text-align: center;
+	}
+
+	.acosta__opt1 p {
+		align-items: left;
+		margin-left: -11rem;
+	}
+	.acosta__opt1 img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.acosta__sc-icons,
+	.acosta__payment-icons {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.acosta__opt2,
+	.acosta__opt3 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+@media screen and (max-width: 1525px)
+{
+	.nav-item a {
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-right: 1.5rem;
+	margin-left: 1.5rem;
+}
+}
+
+
+.navbar-brand,
+.acosta__opt1 img {
+	max-height: 83px;
+}
+
+@media screen and (max-width: 400px)
+{
+	.acosta__opt1 img {
+	max-height: 53px;
+}
+	.acosta__opt1 p {
+		font-size: 10px;
+		margin-left: -10rem;
+	}
+	.acosta__opt1,
+	.acosta__opt2,
+	.acosta__opt3 {
+		margin-top: 0
+		margin-bottom: 0;
 	}
 }
